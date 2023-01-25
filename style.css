@@ -21,9 +21,11 @@ body {
   background-color: #f3f3f3;
   height: 100vh;
   padding: 2rem;
+  width: 100%;
 }
 
 nav {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,7 +76,19 @@ nav {
   cursor: pointer;
   transition: all 0.3s;
 }
-
+.virtual {
+  border: none;
+  background: none;
+  font-size: 1.4rem;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: block;
+  margin: 2rem auto;
+}
+.virtual:hover {
+  text-decoration: underline;
+}
 .login__btn:hover,
 .login__btn:focus,
 .btn--sort:hover,
@@ -211,6 +225,7 @@ nav {
   border-radius: 1rem;
   padding: 3rem 4rem;
   color: #333;
+  min-width: 25rem;
 }
 
 .operation--transfer {
@@ -294,4 +309,35 @@ h2 {
 
 .timer {
   font-weight: 600;
+}
+@media (max-width: 991px) {
+  body {
+    background-color: #9be15d;
+  }
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .login__input {
+    width: 8rem;
+  }
+  nav > img {
+    height: 3rem;
+  }
+  body {
+    padding: 2rem 0.5rem;
+  }
+  .welcome {
+    font-size: 1.2rem;
+  }
+  .welcome {
+    font-size: 1.4rem;
+  }
 }
