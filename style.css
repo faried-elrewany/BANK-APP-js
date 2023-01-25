@@ -306,9 +306,6 @@ h2 {
 }
 
 @media (max-width: 991px) {
-  body {
-    background-color: #9be15d;
-  }
   .app {
     display: flex;
     flex-direction: column;
