@@ -1,9 +1,3 @@
-/*
- * Use this CSS to learn some intersting techniques,
- * in case you're wondering how I built the UI.
- * Have fun! 😁
- */
-
 * {
   margin: 0;
   padding: 0;
@@ -84,7 +78,8 @@ nav {
   cursor: pointer;
   transition: all 0.3s;
   display: block;
-  margin: 2rem auto;
+  margin-top: 1rem;
+  margin-left: auto;
 }
 .virtual:hover {
   text-decoration: underline;
@@ -107,7 +102,6 @@ nav {
   grid-template-rows: auto repeat(3, 15rem) auto;
   gap: 2rem;
 
-  /* NOTE This creates the fade in/out anumation */
   opacity: 0;
   transition: all 1s;
 }
@@ -310,6 +304,7 @@ h2 {
 .timer {
   font-weight: 600;
 }
+
 @media (max-width: 991px) {
   body {
     background-color: #9be15d;
@@ -322,6 +317,10 @@ h2 {
 @media (max-width: 700px) {
   html {
     font-size: 50%;
+  }
+  .summary {
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {
