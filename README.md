@@ -17,3 +17,5 @@ The project is a simulation for a bank application so it has pre-created account
   - delete your account
 
 ![Alt text](bank.png)
+
+# [live Demo](https://bankist-faried-elrewany.netlify.app/)
