@@ -203,7 +203,10 @@ img {
   color: #222;
   transition: all 0.5s;
 }
-
+.link-login.free {
+  width: fit-content;
+  margin: 0 auto;
+}
 /*HEADER*/
 .header {
   padding: 0 3rem;
