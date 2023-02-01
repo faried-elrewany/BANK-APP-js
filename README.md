@@ -2,8 +2,16 @@
 
 The project is a simulation for a bank application so it has pre-created accounts that you can use the functionalities of the app with them
 
+###you can fake login with one of these two accounts
+
+user js and PIN 1111
+user jd and PIN 2222
+
 ## features
 
+- lazy load images
+- tabs component
+- image slider
 - login with username and password
 - you can use virtual account
 - logout timer
@@ -16,6 +24,9 @@ The project is a simulation for a bank application so it has pre-created account
   - requeat a loan from the bank
   - delete your account
 
-![Alt text](bank.png)
+###
+
+![A beautiful landscape](https://flic.kr/p/2oeKrTh)
 
 # [live Demo](https://bankist-faried-elrewany.netlify.app/)
+
