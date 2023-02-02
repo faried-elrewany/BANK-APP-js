@@ -1,4 +1,4 @@
-#<p align="center">BANK APP</p>
+# <p align="center">BANK APP</p>
 
 The project is a simulation for a bank application so it has pre-created accounts that you can use the functionalities of the app with them
 
