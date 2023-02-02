@@ -4,8 +4,8 @@ The project is a simulation for a bank application so it has pre-created account
 
 ### you can fake login with one of these two accounts
 
-user js and PIN 1111
-user jd and PIN 2222
+ #### user js and PIN 1111
+#### user jd and PIN 2222
 
 ## Features
 
